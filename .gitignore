@@ -1,0 +1,4 @@
+node_modules/
+check/
+.claude/settings.local.json
+ppt/.claude/settings.local.json

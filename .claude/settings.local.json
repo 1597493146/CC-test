@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cc-connect weixin *)",
+      "Bash(cc-connect --help)",
+      "Bash(cc-connect list *)",
+      "Bash(cc-connect --list)",
+      "Bash(cc-connect dingtalk *)",
+      "Bash(cc-connect config *)",
+      "Bash(gh --version)",
+      "Bash(git init *)",
+      "Bash(winget install *)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
+      "Bash(gh auth *)",
+      "Bash(gh repo *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git rm *)",
+      "Bash(git reset *)",
+      "Bash(git config *)"
+    ]
+  },
+  "disabledMcpjsonServers": [
+    "baidu-mcp-server"
+  ]
+}

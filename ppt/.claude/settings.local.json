@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(scripts/start-server.sh *)",
+      "Bash(node *)",
+      "Bash(mkdir -p /tmp/brainstorm/content)",
+      "Bash(echo \"test\")",
+      "Bash(npm install *)",
+      "Bash(dir \"C:\\\\Users\\\\15974\\\\Desktop\\\\CC test\\\\ppt\")",
+      "Read(//c/Users/15974/.claude/plugins/**)",
+      "Read(//c/Users/15974/AppData/Local/Claude/**)",
+      "Bash(npm list *)",
+      "Bash(pip show *)",
+      "Bash(claude mcp *)",
+      "Bash(xargs grep -l \"baidu\")",
+      "Bash(pip uninstall *)"
+    ]
+  },
+  "disabledMcpjsonServers": [
+    "baidu-mcp-server"
+  ]
+}
